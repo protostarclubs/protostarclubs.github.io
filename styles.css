@@ -84,6 +84,13 @@ body {
     display: inline-block;
 }
 
+.credits {
+    font-size: 12px;
+    margin-left: 180px;
+    text-align: center;
+    padding-top:20px;
+}
+
 img:hover {
     opacity: 0.5;
     filter: alpha(opacity=50);
