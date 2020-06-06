@@ -451,12 +451,14 @@ h3 {
     background-color: black;
 }
   
-.text {
+.texts {
     color: white;
     font-size: 15px;
     position: absolute;
     width: 80%;
     top: 50%;
+    line-height: 1.8;
+    font-family: GlacialIndifference-Reg;
     text-align: left;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
