@@ -354,9 +354,10 @@ h1 {
 .right {
   display: inline-block;
   margin-left: 80px;
+  margin-right: 80px;
   /*font-family: 'Source Code Pro';*/
   font-family: GlacialIndifference-Reg;
-  max-width: 500px;
+  max-width: 1000px;
   /*font-weight: 600;*/
   line-height: 1.8;
 }
