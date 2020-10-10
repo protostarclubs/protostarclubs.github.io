@@ -6,24 +6,34 @@
     <script src="https://kit.fontawesome.com/31f63a4026.js"></script>
     <link rel="icon" href="assets/cosmos-icon.png" type="image/icon type">
     <link rel="stylesheet" href="styles.css" type="text/css"/>
-    <title>Protostar: Alumni</title>
+    <title>Protostar: Initiatives</title>
   </head>
 
   <body style = "background-image: url(assets/bwlt.jpg); background-repeat: no-repeat; background-size: cover; background-position: bottom;">
     <header>
-      <nav class = "navbar">
-        <a href = "index.html"><img class = "nav-logo" src = "assets/trans-logo.png"></a>
+      <nav class = "navbar" id = "topnav">
+        <a href = "index.html"><img class = "nav-logo" src = "assets/white-logo.png"></a>
         <ul class = "navbar-text">
           <li>
-            <a href = "index.html">About</a>
-            <a href = "#">Alumni</a>
-            <a href = "involved.html">Get Involved</a>
+            <a class = "special" href = "#">initiatives</a>
+            <a class = "special" href = "involved.html">Get Involved</a>
+            <div class="dropdown" style = "display: block; margin-right: 30px; margin-top: 1px">
+              <button class="dropbtn">About
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content" style = "font-size: 13px">
+                <a style = "margin-right: 0px" href="mission.html">Mission</a>
+                <a style = "margin-right: 0px" href="teams.html">Team</a>
+                <a style = "margin-right: 0px" href="sponsors.html">Sponsors</a>
+              </div>
+            </div>
+            <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()"></a> <!--&#9776; in between-->
           </li>
         </ul>
       </nav>
     </header>
-  
-    <h1 class = "title">Our <span class = "gradient-text">Alumni</span>.</h1>
+
+    <h1 class = "title">Our <span class = "gradient-text" style = "background-image: linear-gradient(-225deg, #20E2D7 0%, #F9FEA5 100%);">Iniatives</span>.</h1>
     <article class = "white">
       <div class = "page-content">
         <div>
@@ -34,7 +44,7 @@
               <br><br>
               <i>Okay, but what does that have to do with entrepreneurship?</i>
               <br><br>
-              It's the perfect analogy for the growth our students undergo throughout the year! 
+              It's the perfect analogy for the growth our students undergo throughout the year!
               Like a protostar, most of our students begin with little to no knowledge background knowledge
               of entrepreneurship. However,
               through the careful guidance of their mentors and the resources we provide, by the end of the year, our students gain a firm base of knowledge that will enable them
@@ -59,12 +69,12 @@
                   <img src="assets/PALS.jpg" alt="Find a Friend" class="cards-img">
                   <div class="text-block">
                     <h4>Find a Friend</h4>
-                  </div>    
+                  </div>
                 </div>
                   <div class="overlay">
                     <div class="texts">
                       <h3>Founder: Aleeza Huda (Lane Tech)</h3>
-                      "Find a Friend" is a mobile application aimed to connect teenagers from cultures all around the world. 
+                      "Find a Friend" is a mobile application aimed to connect teenagers from cultures all around the world.
                       By forming an international friendship with another teenager, users would develop a broader perspective to life by learning about different
                       cultures and traditions around the world.
                     </div>
@@ -73,6 +83,15 @@
             </div>
             <!--insert more-->
           </div>
+          <!--
+          <div class="benefits">
+              <h3>Less Space-Intensive 🏠</h3>
+              <p class="special-text">Hydroponics require 20% less space than soil-based plants -- meaning that you can grow your plants indoors or in otherwise very small spaces!
+                The reason they require less space mainly has to do with the fact that unlike soil-based plants, water and nutrients are delivered
+                to the roots directly.
+              </p>
+            </div>
+          -->
         </div>
       </div>
     </article>
@@ -87,7 +106,7 @@
         <h3 class = "gradient-underline">Contact Us</h3>
         <a style = "color: white; display: block; margin-top: 20px; text-decoration: none;" href="mailto:hello@protostarclubs.com?" target="_blank">hello@protostarclubs.com</a>
         <a style = "color: white; display: block; margin-top: 20px; text-decoration: none;" href="https://www.instagram.com/protostarclubs/" target="_blank">instagram: @protostarclubs</a>
-        <p class = "credits">website made with 🌌 by 
+        <p class = "credits">website made with 🌌 by
           <a style = "color: white; display: inline-block; margin-top: 15px; text-decoration: none;" href="https://github.com/yyestrada-re" target="_blank">yamilett</a>
         </p>
       </div>
