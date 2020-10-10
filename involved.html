@@ -19,28 +19,38 @@
 
   <body style = "background-image: url(assets/dark-space.jpg); background-repeat: repeat; background-size: inherit; background-position: top;">
     <header>
-      <nav class = "navbar">
-        <a href = "index.html"><img class = "nav-logo" src = "assets/trans-logo.png"></a>
+      <nav class = "navbar" id = "topnav">
+        <a href = "index.html"><img class = "nav-logo" src = "assets/white-logo.png"></a>
         <ul class = "navbar-text">
           <li>
-            <a href = "index.html">About</a>
-            <a href = "alumni.html">Alumni</a>
-            <a href = "#">Get Involved</a>
+            <a class = "special" href = "initiatives.html">initiatives</a>
+            <a class = "special" href = "#">Get Involved</a>
+            <div class="dropdown" style = "display: block; margin-right: 30px; margin-top: 1px">
+              <button class="dropbtn">About
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content" style = "font-size: 13px">
+                <a style = "margin-right: 0px" href="mission.html">Mission</a>
+                <a style = "margin-right: 0px" href="teams.html">Team</a>
+                <a style = "margin-right: 0px" href="sponsors.html">Sponsors</a>
+              </div>
+            </div>
+            <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()"></a> <!--&#9776; in between-->
           </li>
         </ul>
       </nav>
     </header>
-    <h1 class = "title" style = "max-width: 1100px; padding-left: 180px; padding-top: 30vh;">Join the <span class = "gradient-text">movement</span>.</h1>
+    <h1 class = "title" style = "max-width: 1100px; padding-left: 180px; padding-top: 30vh;">Join the <span class = "gradient-text" style = "background-image: linear-gradient(-20deg, #ddd6f3 0%, #faaca8 100%, #faaca8 100%);">movement</span>.</h1>
     <article style = "max-width: 900px; margin: -60px 180px 100px 180px;">
         <div class = "page-content">
           <div style = "order: 1">
             <p class = "header-subtext" style = "line-height: 2; font-family: GlacialIndifference-Reg; max-width: 1100px; color: white;">
               We are an ever-expanding collection of teenage entrepreneurs eager to incite real and meaningful change within our communities. Are you ready for the challenge?
             </p>
-            <i><p class = "header-subtext" style = "font-size: 15px; font-family: GlacialIndifference-Reg; max-width: 1100px; color: white;">Please note that all applications, 
-                with the exception of the Executive Team application, are reviewed on a rolling-basis. 
+            <i><p class = "header-subtext" style = "font-size: 15px; font-family: GlacialIndifference-Reg; max-width: 1100px; color: white;">Please note that all applications,
+                with the exception of the Executive Team application, are reviewed on a rolling-basis.
             </p></i>
-            
+
             <!--executive team-
             <div class = "team">
               <div class = "card" style = "display: flex; margin-left: 0px">
@@ -55,7 +65,7 @@
                     <br><br>
                     We have a few, limited spots on our Executive Team open to any capable individual with a passion for entrepreneurship. They will work directly with the Protostar founders
                     in order to ensure that the organization is running smoothly, while overseeing all other Protostar chapters. They will be unable to participate in the competition, but will have
-                    hands-on experience running an organization, as well as meeting other like-minded individuals. 
+                    hands-on experience running an organization, as well as meeting other like-minded individuals.
                     <br><br>
                     We are always looking for diverse candidates, so even if you have absolutely no prior experience, apply anyway! We can't wait to read your application!
                 </p>
@@ -93,7 +103,7 @@
                 <p style = "max-width: 540px; margin-left: 50px; font-size: 16px; line-height: 2;">
                     Our mentor & mentee program, The Hub, relies on the generous support of advisers and mentors.
                     <br><br>
-                    Whether you are a programmer, artist, college student, or entrepreneur, your diverse perspective helps our students create stronger companies. 
+                    Whether you are a programmer, artist, college student, or entrepreneur, your diverse perspective helps our students create stronger companies.
                     Advisers are matched up with a team
                     at the start of the program and offer them feedback/advice on all phases of their entrepreneurial journey.
                     <br><br>
@@ -121,8 +131,8 @@
                 </p>
               </div>
             </div>
-        
-           
+
+
         </div>
     </article>
     <footer>
@@ -134,7 +144,7 @@
         <h3 class = "gradient-underline">Contact Us</h3>
         <a style = "color: white; display: block; margin-top: 20px; text-decoration: none;" href="mailto:hello@protostarclubs.com?" target="_blank">hello@protostarclubs.com</a>
         <a style = "color: white; display: block; margin-top: 20px; text-decoration: none;" href="https://www.instagram.com/protostarclubs/" target="_blank">instagram: @protostarclubs</a>
-        <p class = "credits">website made with 🌌 by 
+        <p class = "credits">website made with 🌌 by
           <a style = "color: white; display: inline-block; margin-top: 15px; text-decoration: none;" href="https://github.com/yyestrada-re" target="_blank">yamilett</a>
         </p>
       </div>

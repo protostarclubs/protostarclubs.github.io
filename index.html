@@ -5,87 +5,47 @@
     <script src="script.js"></script>
     <link rel="icon" href="assets/cosmos-icon.png" type="image/icon type">
     <link rel="stylesheet" href="styles.css" type="text/css"/>
-    <title>Protostar: Our Mission</title>
+    <title>Protostar: Home</title>
   </head>
 
-  <body style = "background-image: url(assets/space3.jpg); background-repeat: no-repeat; background-size: cover; background-position: top;">
+  <body style = "background-image: url(assets/dark-space.jpg); background-repeat: no-repeat; background-size: cover; background-position: top;">
     <header>
-      <nav class = "navbar">
-        <a href = "index.html"><img class = "nav-logo" src = "assets/trans-logo.png"></a>
+      <nav class = "navbar" id = "topnav">
+        <a href = "index.html"><img class = "nav-logo" src = "assets/white-logo.png"></a>
         <ul class = "navbar-text">
           <li>
-            <a href = "#">About</a>
-            <a href = "alumni.html">Alumni</a>
-            <a href = "involved.html">Get Involved</a>
+            <a class = "special" href = "initiatives.html">initiatives</a>
+            <a class = "special" href = "involved.html">Get Involved</a>
+            <div class="dropdown" style = "display: block; margin-right: 30px; margin-top: 1px">
+              <button class="dropbtn">About
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content" style = "font-size: 13px">
+                <a style = "margin-right: 0px" href="mission.html">Mission</a>
+                <a style = "margin-right: 0px" href="teams.html">Team</a>
+                <a style = "margin-right: 0px" href="sponsors.html">Sponsors</a>
+              </div>
+            </div>
+            <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()"></a> <!--&#9776; in between-->
           </li>
         </ul>
       </nav>
     </header>
-    <h1 class = "title">Our <span class = "gradient-text">Mission</span>.</h1>
-    <article class = "white">
-      <div class = "page-content">
-        <div style = "order: 1">
-          <p class = "header-subtext">
-            Youthful Imagination + Entrepreneurship = Infinite Possibilities.
-          </p>
-          <p class = "text">
-            We live on a planet with finite resources and a rapidly increasing world population.
-            Threatened by environmental catastrophe and overpopulation, we are constantly confronted by a rising tide of crises and man-made calamities, 
-            including food insecurity, overexploitation, groundwater depletion, and more that become increasingly apparent with each passing day.
-            <br><br>
-            Now, more than ever, the world is in a dire need for forward-thinking problem solvers who are willing to challenge 
-            decades of traditional thinking in order to tackle complex issues that are hindering the progression of humanity, in brand new innovative ways.
-            <br><br>
-            In the midst of a Digital Revolution, entrepreneurs will undoubtedly be the driving force behind the solutions for issues plaguing society today. 
-            Yet, the field faces a shortage in underrepresented individuals (either in age, gender, or ethnicity) and is generally accompanied by the unwelcoming stigma of "being a businessman".
-            <br><br>
-            We're here to change that.
-            <br><br>
-            Founded in 2019 by four passionate teenagers, Protostar has evolved from a mere school club to a student-run high school incubator program with numerous chapters throughout the Chicagoland area.
-            Driven by the three core principles of collaboration, creativity, and diversity, we are a collection of creatives who leverage the intersection between STEAM and entrepreneurship in order to solve humanity’s 
-            most crucial challenges. 
-            <br><br>
-            Our mission is two-fold: <br><br><i><span class = "gradient-underline">Redefine "entrepreneurship" and transform the startup ecosystem to become more inclusive.</span></i>
-            <br><br>
-            Today's modern-day definition of "entrepreneurship" is outdated. It reflects the misconception that "entrepreneurship" is solely centered around "creating a business," when in reality it's much
-            more than that: it's a mindset of constant innovation, constant creativity, diverse perspectives, and a resilience unparallel to no other.
-            <br><br>
-            By providing teenage entrepreneurs the platform and tools to develop their creativity and network with other like-minded peers, we hope to inspire students with the tenacity to build 
-            and pursue their own viable startups, molded to fit their own ideal of the world. 
-            <br><br>
-            Age is just a number and <i>anyone</i> is capable of inciting real and meaningful change in their communities. With upwards thinking, our students will learn how to reach the upper bounds of the atmosphere,
-            the upper bounds of space, and the upper bounds of their full potential. 
-          </p>
-        </div>
-        <nav class = "page-nav">
-          <h4>About Us</h4>
-          <ul>
-            <li style = "list-style: circle;">
-              <a href = "#" style = "background-image: linear-gradient(-110deg,#e1f549,#29d0be,#6cb8ea,#ff5959); background-position: 0 1.04em; background-repeat: repeat-x; display: inline;">Our Mission</a>
-            </li>
-            <li>
-              <a href = "team.html" style = "list-style: circle;">Our Team</a>
-            </li>
-            <li>
-              <a href = "sponsors.html" style = "list-style: circle;">Our Sponsors</a>
-            </li>
-          </ul>
-        </nav>
+    <div style = "color: white; padding: 18.125rem 5rem 2.125rem 5rem; display: inline-flex;">
+      <div>
+        <h1 class = "title-special" style = "display: inline-block; font-size: calc(20px + 43 * (100vw - 450px) / 1050);">Go&nbsp;</h1>
+        <h1 class = "gradient-underline-special" style = "font-size: calc(20px + 43 * (100vw - 450px) / 1050); color: white; font-family: LeagueSpartan; letter-spacing: .013em; display: inline-block;"> beyond</h1>
+        <h1 class = "title-special" style = "display: contents; font-size: calc(20px + 43 * (100vw - 450px) / 1050);">&nbsp;the norm.</h1>
+        <br>
+        <h3 class = "title-subtext" style = "color: white;">
+          At Protostar, we give students the tools and innovative mindsets needed to inflict <i>real</i> and <i>meaningful</i> change in their communities. Are you ready for the challenge?
+        </h3>
+        <br>
       </div>
-    </article>
-    <footer>
-      <div class = "col" style = "float: left">
-        <img src = "assets/orange.PNG" class = "footer-img"/>
-        <h4 style = "letter-spacing: 0.01em; font-weight: 300; line-height: 2.1;">A student-run incubator program empowering the next wave of industry-disrupting changemakers and innovators.</h4>
+      <div>
+        <img src = "assets/astro.png" style = "width: 600px; margin-top: -170px">
       </div>
-      <div class = "col" style = "float: right; display: inline-block; margin-top: 15px; text-align: right">
-        <h3 class = "gradient-underline">Contact Us</h3>
-        <a style = "color: white; display: block; margin-top: 20px; text-decoration: none;" href="mailto:hello@protostarclubs.com?" target="_blank">hello@protostarclubs.com</a>
-        <a style = "color: white; display: block; margin-top: 20px; text-decoration: none;" href="https://www.instagram.com/protostarclubs/" target="_blank">instagram: @protostarclubs</a>
-        <p class = "credits">website made with 🌌 by 
-          <a style = "color: white; display: inline-block; margin-top: 15px; text-decoration: none;" href="https://github.com/yyestrada-re" target="_blank">yamilett</a>
-        </p>
-      </div>
-    </footer>
+    </div>
+
   </body>
 </html>
